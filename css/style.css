@@ -501,6 +501,7 @@ form {
     height: 320px;
     margin-right: 10%; }
     .work-polaroid img {
+      padding: 5px;
       width: 360px;
       height: 280px; }
     .work-polaroid h4 {
@@ -511,6 +512,7 @@ form {
     font-size: 1em; }
   .work-polaroid-short {
     height: 275px;
+    padding: 5px
     width: 395px;
     margin-left: 10%; }
     .work-polaroid-short img {
