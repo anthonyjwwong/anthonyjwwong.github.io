@@ -492,7 +492,7 @@ form {
       margin-top: 10px;
       font-size: 1em; }
   .about-descript {
-    width: 50%;
+    width: 40%;
     margin-top: 30px; }
     .about-descript p {
       font-size: 1em; }
@@ -516,6 +516,8 @@ form {
     .work-polaroid-short img {
       width: 360px;
       height: 210px; }
+    .work-polaroid-short h4 {
+      font-size: 1em; }
   .intro {
     width: 1000px;
     padding: 10px;
