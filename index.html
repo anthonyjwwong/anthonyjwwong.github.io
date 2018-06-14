@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony Wong - Web Developer</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Open+Sans:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+  <div id="header">
+    <div class="intro">
+      <h1 class="hello">Hello there, I'm Anthony Wong,</h1>
+      <h1 class="employ">I'm looking for employment opportunities.</h1>
+      <h1 class="webDev displayNone">I'm a <span class="bolded">Front-End Web Developer</span> based in NYC.</h1>
+      <h1 class="thanks displayNone">Welcome and please check out my portfolio</h1>
+    </div>
+  </div>
+
+  <div id="main">
+
+    <div class="container">
+      <div id="about">
+        <h2>About</h2>
+        <div class="about-image">
+          <div class="polaroid">
+            <img src="img/me/me-prof1.jpg">
+             <h4>That's me back in 2012, past me with zero web developing knowledge</h4>
+          </div>
+
+        <div class="about-descript">
+          <p>Hey there,</p>
+          <p> I'm a self-taught developer from New York City. </p>
+
+          <p>I started around a year ago.</p>
+          <p>I'm still learning and improving myself.</p>
+          <p>As they say, learning is a never ending process.</p>
+          <p>On my free time, I teach basic HTML/CSS/JavaScript.</p>
+        </div>
+       </div>
+      </div>
+
+      <div id="work">
+        <h2>Projects</h2>
+
+        <div class="flex1">
+
+          <div class="work-polaroid">
+            <img src="img/projects/web1.png" alt="portfolio design">
+            <h4>Portfolio Design #1</h4>
+          </div>
+
+          <div class="work-descript">
+            <h3>Portfolio Design #1</h3>
+            <p>This is my first portfolio that I used for a while, it was built with css(Scss) and a little JavaScript.</p>
+          </div>
+
+        </div>
+        <div class="flex1">
+          <div class="work-descript">
+            <h3>Twitch User Viewer</h3>
+            <p>This allows you to look up different twitch users to check their online status</p>
+          </div>
+          <div class="work-polaroid-short">
+            <img src="img/projects/twitch.png" alt="twitch viewer">
+            <h4>Twitch User Viewer</h4>
+          </div>
+        </div>
+        <div class="flex1">
+
+          <div class="work-polaroid">
+            <img src="img/projects/23.png" alt="portfolio design">
+            <h4>Gaming info website</h4>
+          </div>
+          <div class="work-descript">
+            <h3>Gaming info website</h3>
+            <p>This is a ongoing gaming info website build for a client. Site is still currently being build</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <h2>Contact</h2>
+        <div class="contact-descript">
+          <p>Hey there again. If you have any projects you would like to work together on, please do not hesitate to contact me.</p>
+          <div class="social">
+              <div class="github">
+                <a href="https://github.com/anthonyjwwong" target="_blank">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </div>
+            <div class="codepen">
+                <a href="https://codepen.io/Awjw/" target="_blank">
+                  <i class="fab fa-codepen"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-btn">
+          <button id="myBtn">Click here</button>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <br>
+            <!--Form from FormSpree-->
+            <form method="POST" action="https://formspree.io/anthonywongjw@gmail.com">
+              <p>Do you have any projects you want to work on together, send me a message!</p>
+              <p>I'll get back to you within one or two days</p>
+              <div class="name-email">
+                <input type="text" name="name" class="name-input" placeholder="Name...">
+
+                <input type="email" name="email" class="email-input" placeholder="Email...">
+              </div>
+              <textarea name="message" class="email-text" placeholder="Message..."></textarea>
+              <br>
+              <button class="form-btn" type="submit">Send</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+      <div id="footer">
+        <p>coded by me</p>
+
+      </div>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+     crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
