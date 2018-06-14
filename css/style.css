@@ -545,7 +545,16 @@ form {
     font-size: 70px; }
   .modal-btn button {
     font-size: 1em; }
-  .form .form-btn {
-    font-size: 1em;
-  }
+
+    form p {
+      width: 80%;
+      margin: 0 auto;
+      color: white;
+      padding-bottom: 10px;
+    }
+  
+    .form-btn {
+      font-size: 25px;
+    }
+  
 }
