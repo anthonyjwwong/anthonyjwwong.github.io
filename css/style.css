@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 1px;
   width: 100%;
-  background-color: #00bb6f; }
+  background-color: #696B6F; }
 
 .displayNone {
   display: none; }
@@ -51,7 +51,7 @@ body {
   #about h2 {
     width: 15%;
     font-size: 0.7em;
-    background-color: #00bb6f;
+    background-color: #0ab;
     color: white;
     height: 23%;
     text-align: center;
@@ -62,7 +62,7 @@ body {
   background-color: white;
   margin: -45px auto 10px;
   border: 1px solid #e1e1e1;
-  box-shadow: 5px 5px #CACACA; }
+  box-shadow: 5px 5px #43464b; }
 
 .about-image {
   padding-top: 5%; }
@@ -90,10 +90,9 @@ body {
 .about-descript {
   font-family: "Open Sans", sans-serif;
   width: 80%;
-  margin: 50px auto 0; }
+  margin: 20px auto 0; }
   .about-descript p {
-    font-size: 0.55em;
-    border-bottom: 0.3px solid #494949; }
+    font-size: 0.55em; }
 
 /********************
        Work
@@ -104,7 +103,7 @@ body {
   #work h2 {
     width: 15%;
     font-size: 0.7em;
-    background-color: #00bb6f;
+    background-color: #0ab;
     color: white;
     height: 23%;
     text-align: center;
@@ -174,7 +173,7 @@ body {
   #contact h2 {
     width: 15%;
     font-size: 0.7em;
-    background-color: #00bb6f;
+    background-color: #0ab;
     color: white;
     height: 23%;
     text-align: center;
@@ -198,7 +197,7 @@ body {
     margin-top: 10%;
     border-radius: 50px; }
   .social .fa-github-square, .social .fa-codepen {
-    color: #00bb6f;
+    color: #696B6F;
     font-size: 1.5em; }
 
 /*********************
@@ -211,10 +210,10 @@ body {
     display: block;
     font-weight: 200;
     font-size: 0.7em;
-    border: 1px solid #00bb6f;
+    border: 1px solid #696B6F;
     padding: 5px;
     background: white;
-    color: #00bb6f;
+    color: #696B6F;
     text-decoration: none;
     width: 40%;
     outline: none; }
@@ -242,7 +241,7 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
-  background: #00bb6f;
+  background: #696B6F;
   margin: 0 auto;
   /* 15% from the top and centered */
   border: 1px solid #888;
@@ -497,11 +496,10 @@ form {
     .about-descript p {
       font-size: 1em; }
   .work-polaroid {
-    width: 395px;
+    width: 380px;
     height: 320px;
     margin-right: 10%; }
     .work-polaroid img {
-      padding: 5px;
       width: 360px;
       height: 280px; }
     .work-polaroid h4 {
@@ -512,8 +510,7 @@ form {
     font-size: 1em; }
   .work-polaroid-short {
     height: 275px;
-    padding: 5px;
-    width: 395px;
+    width: 380px;
     margin-left: 10%; }
     .work-polaroid-short img {
       width: 360px;
@@ -544,19 +541,28 @@ form {
   #contact p {
     font-size: 1.04em; }
   .social .fa-github-square, .social .fa-codepen {
-    font-size: 70px; }
-  .modal-btn button {
-    font-size: 1em; }
-
+    font-size: 50px; }
+  .social .fa-codepen {
+    margin-top: 50px; }
+  .modal-btn {
+    padding-bottom: 0px; }
+    .modal-btn button {
+      font-size: 1em;
+      margin-top: -80px;
+      margin-left: 5px; }
+  form {
+    text-align: center;
+    color: white; }
     form p {
       width: 80%;
       margin: 0 auto;
       color: white;
-      padding-bottom: 10px;
-    }
-  
-    .form-btn {
+      padding-bottom: 10px; }
+    form .form-btn {
+      margin-top: 10px;
+      padding: 2px 5px 2px;
       font-size: 25px;
-    }
-  
-}
+      border: 1px solid white;
+      background: inherit;
+      color: white;
+      width: 20vw; } }
