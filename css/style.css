@@ -88,11 +88,15 @@ body {
     font-size: 0.55em; }
 
 .about-descript {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 80%;
   margin: 20px auto 0; }
   .about-descript p {
-    font-size: 0.55em; }
+    font-size: 0.85em;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #494949; }
 
 /********************
        Work
