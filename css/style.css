@@ -92,6 +92,7 @@ body {
   width: 80%;
   margin: 20px auto 0; }
   .about-descript p {
+    font-family: 'Tajawal', sans-serif;
     font-size: 0.85em;
     line-height: 20px;
     letter-spacing: 0.5px;
