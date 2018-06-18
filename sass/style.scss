@@ -112,13 +112,17 @@ body {
 
 .about-descript {
 
-  font-family: $logo-font;
+  font-family: $primary-font;
   width: 80%;
 
   margin: 20px auto 0;
   p {
     font-size: 0.55em;
-
+     font-size: 0.85em;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #494949;
   }
 }
 /********************
